@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Archivo, sans-serif;
   /* background-color: lightgrey; */
 }
 
@@ -16,14 +16,16 @@
 
 .menu {
   /* border: 2px solid rgb(19, 156, 19); */
+
   padding: 5px 0px;
   display: flex;
   width: 500px;
   justify-content: space-between;
 }
 
-.sl {
+.links {
   /* border: 2px solid grey; */
+
   display: flex;
   justify-content: flex-end;
 }
@@ -32,24 +34,29 @@
   margin-left: 10px;
 }
 
-
 /* Middle CSS */
 .center_container {
   /* border: 2px solid green; */
 
   display: flex;
   justify-content: center;
+  background-color: lightgray;
 }
 
 .header {
-  border: 2px solid;
+  /* border: 2px solid; */
+
   display: flex;
-  width: 500px;
+  width: 900px;
   height: 500px;
   justify-content: space-between;
   align-items: center;
 }
 
+.a {
+  align-self: flex-start;
+  margin-top: 10px;
+}
 
 /* Photo CSS */
 .photo_container {
@@ -66,14 +73,20 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
-
-
 
 .item {
   /* border: 1px solid gray; */
 
   height: 300px;
   width: 300px;
+}
+
+.first-item {
+  order: -4;
+}
+
+.last-item {
+  order: -3;
 }
