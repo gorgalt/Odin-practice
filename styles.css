@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: lightgrey; */
+}
+
+/* Top menu CSS */
+.container {
+  display: flex;
+  padding: 12px 10px;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.menu {
+  /* border: 2px solid rgb(19, 156, 19); */
+  padding: 5px 0px;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.sl {
+  /* border: 2px solid grey; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 10px;
+}
+
+
+/* Middle CSS */
+.center_container {
+  /* border: 2px solid green; */
+
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  border: 2px solid;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Photo CSS */
+.photo_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photoGrid {
+  /* border: 2px solid rebeccapurple; */
+
+  display: flex;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+
+
+.item {
+  /* border: 1px solid gray; */
+
+  height: 300px;
+  width: 300px;
+}
