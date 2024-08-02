@@ -3,4 +3,4 @@
 - Place where all my progress with odin project goes
 - Every commit message includes with what I last finished in TOP.
 
-`balls`
+`The Odin Project` `Interneting is Hard`
