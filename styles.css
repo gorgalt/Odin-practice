@@ -96,11 +96,11 @@
 }
 
 .foot-2 {
-  flex: 2;
+  flex: 15;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-  font-size: small;
+  font-size: large;
 }
 
 .foot-1, .foot-3 {
